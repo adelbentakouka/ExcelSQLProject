@@ -51,10 +51,6 @@ namespace ExcelSQLProject
             _navigationStore.CurrentViewModel = CreateImportExcelToDatabaseViewmodel();
 
             
-            /*
-             User Adel = new User("Adel", "BENTAKOUKA", 24, 0412345678, "ad.bentakouka@gmail.com");
-             _userList.ImportUserFromExcel("D:\\Adel\\Documents\\testexcel.xlsx");
-            */
 
             MainWindow = new MainWindow()
             {
